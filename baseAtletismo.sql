@@ -44,7 +44,7 @@ FOREIGN KEY (cod_atleta) REFERENCES atleta(cod)
 )
 
 INSERT INTO pais VALUES
-('AFG', 'Afeganistao')
+('AFG', 'Afeganistao'),
 ('ALB', 'Albania'),
 ('ALG', 'Argelia'),
 ('AND', 'Andorra'),

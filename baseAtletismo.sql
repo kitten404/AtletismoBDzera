@@ -42,3 +42,32 @@ PRIMARY KEY (cod_prova, cod_atleta),
 FOREIGN KEY (cod_prova) REFERENCES prova(cod),
 FOREIGN KEY (cod_atleta) REFERENCES atleta(cod)
 )
+
+INSERT INTO pais VALUES
+('AFG', 'Afeganistao')
+('ALB', 'Albania'),
+('ALG', 'Argelia'),
+('AND', 'Andorra'),
+('ANG', 'Angola'),
+('ANT', 'Antiga e Barbuda'),
+('ASA', 'Samoa Americana'),
+('ARG', 'Argentina'),
+('Arm', 'Armenia'),
+('ARU', 'Aruba'),
+('AUS', 'Australia'),
+('AUT', 'Austria'),
+('AZE', 'Azerbaijao'),
+('BAH', 'Bahamas'),
+('BAN', 'Bangladesh'),
+('BAR', 'Barbados'),
+('BDI', 'Burundi'),
+('BEL', 'Belgica'),
+('BEN', 'Benim'),
+('BER', 'Bermudas'),
+('BHU', 'Butao'),
+('BIH', 'Bosnia e Herzegovina'),
+('BIZ', 'Belize'),
+('BLR', 'Bielorrusia'),
+('BOL', 'Bolivia'),
+('BOT', 'Botswana'),
+('BRA', 'Brasil')

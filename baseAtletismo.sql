@@ -44,7 +44,7 @@ FOREIGN KEY (cod_atleta) REFERENCES atleta(cod)
 )
 
 INSERT INTO pais VALUES
-('AFG', 'Afeganistao'),
+('AFG', 'Afeganistao')
 ('ALB', 'Albania'),
 ('ALG', 'Argelia'),
 ('AND', 'Andorra'),
@@ -71,3 +71,32 @@ INSERT INTO pais VALUES
 ('BOL', 'Bolivia'),
 ('BOT', 'Botswana'),
 ('BRA', 'Brasil')
+
+INSERT INTO prova VALUES
+('Lançamento de Dado / Javelin Throw', 'F', 1)
+('Salto em Distancia / Long Jump', 'M', 1),
+('Salto com Vara / Pole Vault', 'M', 1),
+('Salto com Vara / Pole Vault', 'M', 1),
+('Arremesso de Peso / Shot Put', 'F', 1),
+('Lançamento do Disco / Discus Throw', 'M', 1),
+('Salto Triplo ', 'F', 1),
+('400m com Barreiras / 400m Hurdles', 'M', 2),
+('100m / 100m', 'F', 2),
+('100m / 100m', 'M', 2),
+('3000m / 3000m', 'M', 2),
+('3000m com obstaculo / 3000m Steeplechase', 'F', 2),
+('400m / 400m', 'M', 2),
+('800m / 800m', 'F', 2),
+('800m / 800m', 'M', 2),
+('200m / 200m', 'F', 2),
+('200m / 200m', 'M', 2)
+
+INSERT INTO atleta VALUES
+('AFG', 'Skender Halil', 'M'),
+('AFG', 'Moema Partha', 'F'),
+('ALB', 'Rosenda Mouses', 'F'),
+('ALB', 'Macsen Betania', 'M'),
+('ALG', 'Tanja Emilija', 'F'),
+('ALG', 'Eudocia Erlendr', 'M'),
+('AND', 'Bradley Jodocus', 'M'),
+('AND', 'Bozhidara Katrina', 'M')
